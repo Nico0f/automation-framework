@@ -1,0 +1,161 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+.python-version
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Project specific
+# Logs
+automation.log
+logs/
+*.log
+log/
+
+# Config files with sensitive information
+config/*
+!config/*.example.yaml
+!config/__init__.py
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+database/*.db
+
+# Monitoring and metrics
+metrics/
+prometheus/
+grafana/
+
+# Generated documentation
+docs/_build/
+docs/generated/
+
+# Test coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage/
+
+# Encryption keys and certificates
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# Backup files
+backup/
+*.bak
+*.backup
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+local_settings.py
+development.py
+
+# Web assets
+web/static/node_modules/
+web/static/dist/
+web/static/.cache/
+web/static/build/
+
+# Task specific output
+output/
+results/
+artifacts/
+
+# Scheduler specific
+schedule-backups/
+.schedule_state
+
+# API documentation
+api/swagger/*.json
+api/swagger/*.yaml
+!api/swagger/template.yaml
+
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+
+# Script outputs
+scripts/*.out
+scripts/*.err
+
+# Generated files
+*.generated.*
+generated/
+
+# Environment files
+.env.*
+!.env.example
+
+# Personal notes and TODO files
+NOTES.md
+TODO.md
+*.personal
